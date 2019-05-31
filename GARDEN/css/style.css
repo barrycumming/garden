@@ -1,0 +1,60 @@
+body {
+  background: #98b646;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: #f8de32 3px solid;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.bg-default {
+  background: #98b646;
+}
+
+.bg-default1 {
+  background: #f8de32;
+}
+
+.btn-default {
+  background: #f8de32;
+  color: #fff;
+}
+
+#home-section {
+  background: url(../img/lawngarden.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#services-section .fas,
+#share-section .fas {
+  background: #f8de32;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#create-section .fas {
+  padding-top: 150px;
+  background: #f8de32;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
